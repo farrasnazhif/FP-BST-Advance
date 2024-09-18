@@ -1,20 +1,20 @@
-{{
+{
   "routes": [
     {
-      "src": "/",
-      "dest": "/buyticket"
+      "src": "/buyticket",
+      "dest": "/"
     },
     {
-      "src": "/",
-      "dest": "/login"
+      "src": "/login",
+      "dest": "/"
     },
     {
-      "src": "/",
-      "dest": "/register"
+      "src": "/register",
+      "dest": "/"
     },
-    {
-      "src": "/",
-      "dest": "/movies"
+    { 
+      "src": "/login",
+      "dest": "/"
     }
   ]
 }
