@@ -7,7 +7,7 @@ const NavbarMenu = [
   {
     id: 1,
     name: "Home",
-    link: "/Movies",
+    link: "/",
   },
   {
     id: 2,
