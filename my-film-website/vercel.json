@@ -1,5 +1,20 @@
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+{{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/buyticket"
+    },
+    {
+      "src": "/",
+      "dest": "/login"
+    },
+    {
+      "src": "/",
+      "dest": "/register"
+    },
+    {
+      "src": "/",
+      "dest": "/movies"
+    }
   ]
 }
