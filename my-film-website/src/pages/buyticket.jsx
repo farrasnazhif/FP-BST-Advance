@@ -49,7 +49,7 @@ const BuyTicketPage = () => {
           </ul>
         </Navbar>
        <div className="container grid grid-cols-1 md:grid-cols-2
-         min-h-[400px] mt-12 mb-28">
+         min-h-[400px] mt-12">
           <div className="flex flex-col justify-center
           pt-14 md:py-0 xl:max-w-[500px] items-center mt-8">
             {/* movie */}
