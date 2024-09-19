@@ -3,7 +3,7 @@ const Input = (props) => {
   return (
     <input 
       type={type}
-      className="text-sm border rounded w-full py-2 px-3 text-slate-100 placeholder: opacity-100" 
+      className="text-sm border rounded w-full py-2 px-3 text-slate-800 placeholder: opacity-100" 
       placeholder={placeholder} 
       name={name}
       id={name}
