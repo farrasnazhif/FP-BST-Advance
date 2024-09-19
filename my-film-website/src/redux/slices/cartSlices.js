@@ -11,10 +11,10 @@ const cartSlices = createSlice({
       const existingCartItem = state.carts.find(item => item.movieTitle === movieTitle);
 
       if (existingCartItem) {
-        // Increase the quantity if the movie is already in the cart
+        // Menambahkan qty saja jika judul movienya sudah ada
         existingCartItem.qty += action.payload.qty;
       } else {
-        // Add new movie to the cart
+        // Menambahkan judul movie baru yang dipesan
         state.carts.push(action.payload);
       }
     },
