@@ -4,7 +4,16 @@ import Button from '../components/Atoms/Button';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../redux/slices/cartSlices.js';
-import MovieList from '../components/Organisms/MovieList.jsx';
+import { Link } from 'react-router-dom';
+import { MdAccountCircle } from 'react-icons/md';
+
+const NavbarMenu = [
+  {
+    id: 1,
+    name: "Home",
+    link: "/movies",
+  },
+];
 
 const BuyTicketPage = () => {
   const location = useLocation();
@@ -20,9 +29,27 @@ const BuyTicketPage = () => {
 
   return (
     <main className='min-h-screen bg-brandDark'>
-       <Navbar />
+       <Navbar>
+          <ul className="flex items-center">
+            {NavbarMenu.map((menu) => (
+              <li
+                key={menu.id}
+                className="hover:text-slate-300
+                      transition duration-300 ease-in-out transform hover:scale-105
+                      text-xs py-2 px-3 uppercase"
+              >
+                <a href={menu.link}>{menu.name}</a>
+              </li>
+            ))}
+            <button className="hover:text-slate-300 transition duration-300 ease-in-out transform hover:scale-105 text-xl ps-14">
+              <Link to="/">
+                <MdAccountCircle />
+              </Link>
+            </button>
+          </ul>
+        </Navbar>
        <div className="container grid grid-cols-1 md:grid-cols-2
-         min-h-[400px] mt-12">
+         min-h-[400px] mt-12 mb-28">
           <div className="flex flex-col justify-center
           pt-14 md:py-0 xl:max-w-[500px] items-center mt-8">
             {/* movie */}
@@ -66,7 +93,7 @@ const BuyTicketPage = () => {
               )}
             </div>
           </div>
-        </div>
+        </div>       
     </main>
   )
 }
