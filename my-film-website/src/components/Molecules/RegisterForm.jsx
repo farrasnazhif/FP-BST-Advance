@@ -18,7 +18,7 @@ const handleRegister = (event) => {
   localStorage.setItem('email', email);
   localStorage.setItem('password', password);
 
-  window.location.href = "/login";
+  window.location.href = "/";
 };
 
 const FormRegister = () => {
