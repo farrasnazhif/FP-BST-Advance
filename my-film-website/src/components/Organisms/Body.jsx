@@ -21,12 +21,11 @@ const Body = () => {
             <h1 className="text-3xl lg:text-5xl font-bold">
               Welcome
             </h1>
-            <p className="text-sm mt-4 mb-4 leading-loose text-white/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Expedita, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Expedita, voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Expedita, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Expedita, voluptate.
+            <p className="text-sm mt-4 mb-4 leading-loose text-white/80 text-justify">
+              Welcome to 28 Cinema Your Ultimate Destination for Trending and Top-Rated Movies!
+              At CinemaX, we bring you the latest and greatest in the world of film. Discover the hottest trending movies, curated just for you, and dive into the most critically acclaimed films with the highest ratings from audiences and critics alike. 
+              Whether you're a fan of action-packed blockbusters, heartwarming dramas, or mind-bending thrillers, our collection is updated in real-time to keep you informed on what's popular and worth watching.
+              Explore detailed reviews and find the latest hits and hidden gems. Stay ahead of the curve with 28 Cinema! where great movies come to life!
             </p>
           
               <Button >
