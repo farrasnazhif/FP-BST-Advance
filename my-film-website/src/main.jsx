@@ -13,7 +13,7 @@ import store from './redux/store.js'
 const router = createBrowserRouter([
 
   {
-    path: "/Login",
+    path: "/",
     element: <LoginPage></LoginPage>,
   },
   {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <RegisterPage></RegisterPage>,
   },
   {
-    path: "/",
+    path: "/Movies",
     element: <FilmPage/>
   },
   {
