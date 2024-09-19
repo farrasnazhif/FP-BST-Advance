@@ -17,11 +17,6 @@ const NavbarMenu = [
     link: "#list",
   },
   {
-    id: 3,
-    name: "TV Shows",
-    link: "#list",
-  },
-  {
     id: 4,
     name: "Upcoming",
     link: "#list",
