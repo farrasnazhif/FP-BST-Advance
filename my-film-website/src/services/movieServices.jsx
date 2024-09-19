@@ -3,18 +3,15 @@ import { getMovies } from '../services/movies';
 
 export const MovieServices = () => {
   const [MovieList, setMovieList] = useState([]);
-  const [BuyTicketPage, setBuyTicketPage] = useState([]);
-
 
   useEffect(() => {
     getMovies((data) => {
       setMovieList(data.results);
-      setBuyTicketPage(data.results);
     });
   }, []);
 
-  return { MovieList, BuyTicketPage };
-};
+  return { MovieList };
+}
 
 export default MovieServices;
 
