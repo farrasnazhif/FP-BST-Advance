@@ -2,60 +2,6 @@ import React from 'react'
 import { MovieServices } from '../../services/movieServices'
 import { useNavigate } from 'react-router-dom'
 
-{/*  
-const MovieList = [
-  {
-    id: 1,
-    name: "Interstellar",
-    url: "images/interstellar.jpg",
-    age: "18+",
-  },
-  {
-    id: 2,
-    name: "The Batman",
-    url: "images/thebatman.jpg",
-    age: "18+",
-  },
-  {
-    id: 3,
-    name: "Shutter Island",
-    url: "images/shutterisland.jpg",
-    age: "18+",
-  },
-  {
-    id: 4,
-    name: "Spiderman: No Way home",
-    url: "images/spidermannwh.jpg",
-    age: "18+",
-  },
-  {
-    id: 5,
-    name: "The Good Guys",
-    url: "images/thegoodguys.jpg",
-    age: "18+",
-  },
-  {
-    id: 6,
-    name: "The Green Mile",
-    url: "images/thegreenmile.jpg",
-    age: "18+",
-  },
-  {
-    id: 7,
-    name: "Fury",
-    url: "images/fury.webp",
-    age: "18+",
-  },
-  {
-    id: 8,
-    name: "Barbie",
-    url: "images/barbie.jpg",
-    age: "18+",
-  },
-] 
-  */}
-
-
 const MovieList = () => {
 
   const { MovieList } = MovieServices();
