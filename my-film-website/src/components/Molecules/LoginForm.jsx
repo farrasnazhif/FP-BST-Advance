@@ -11,7 +11,7 @@ const handleLogin = (event) => {
   const storedPassword = localStorage.getItem('password');
 
   if (username === storedUsername && password === storedPassword) {
-    window.location.href = "/";
+    window.location.href = "/movies";
   } else {
     alert("Invalid username or password.");
   }
