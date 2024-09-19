@@ -20,7 +20,7 @@ const Body = () => {
           {/* description */}
           <div className="flex flex-col justify-center
           pt-14 md:py-0 xl:max-w-[500px]">
-            <h1 className="text-3xl lg:text-5xl font-bold">
+            <h1 className="text-3xl lg:text-5xl font-bold capitalize">
               Welcome {username}
             </h1>
             <p className="text-sm mt-4 mb-4 leading-loose text-white/80 text-justify">
